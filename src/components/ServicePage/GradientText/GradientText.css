@@ -1,0 +1,64 @@
+.text-main-wrap {
+    width: 70vw;
+    font-family: Arial, sans-serif;
+    /* Adjust based on the font in the image */
+    font-size: 48px;
+    /* Adjust size to match the image */
+    font-weight: bold;
+    align-items: center;
+  }
+  
+  .text-container {
+    font-family: Arial, sans-serif;
+    /* Adjust based on the font in the image */
+    font-size: 48px;
+    /* Adjust size to match the image */
+    font-weight: bold;
+    width: 50%;
+    padding-left: 100px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, #ff0066, #8a2be2, #0000ff);
+    /* Adjust colors to match the image */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .normal-text {
+    color: #000033;
+    /* Adjust color to match "Development" text */
+  }
+  
+  .normal-second-text {
+    color: white;
+    /* font-size: large;
+      font-weight: 600; */
+  }
+  
+  /* new Style startted.................................. */
+  
+  .gradient-main-text-wrap {
+    width: 60vw;
+  }
+  
+  .first-txt-wrap,
+  .second-txt-wrap,
+  .third-txt-wrap {
+    width: 100%;
+    display: flex;
+      justify-content: space-around;
+  }
+  
+  .second-txt-wrap,
+  .third-txt-wrap {
+    font-family: Arial, sans-serif;
+      font-size: 52px;
+      font-weight: bold;
+      /* padding-bottom: 12px; */
+      align-items: center;
+      display: flex
+  ;
+  }

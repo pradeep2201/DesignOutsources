@@ -1,0 +1,107 @@
+.footer {
+    /* background-color: #1c1c1c; */
+    background-color: rgba(2, 16, 48);
+    color: #fff;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-logo-desc .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fcca03;
+  }
+  
+  .footer-logo-desc p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-address h4,
+  .footer-contact h4,
+  .footer-links h4,
+  .footer-partners h4,
+  .footer-social h4 {
+    font-size: 1rem;
+    /* margin-bottom: 0.5rem; */
+  }
+  
+  .footer-address p,
+  .footer-contact p {
+    font-size: 0.85rem;
+    margin: 0.2rem 0;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    font-size: 0.85rem;
+    margin: 0.3rem 0;
+  }
+  
+  .hiring {
+    background-color: #fcca03;
+    color: #1c1c1c;
+    padding: 0.1rem 0.3rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+  }
+  
+  .footer-partners p {
+    font-size: 0.85rem;
+  }
+  
+  .footer-social .social-icons i {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  .footer-social {
+    display: flex !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+  
+  .footer-social .social-icons i:hover {
+    color: #fcca03;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #121212; Matches the footer background */
+    padding: 1rem 0;
+  }
+  
+  .social-icon {
+    color: #fff; /* Icon color */
+    font-size: 2rem; /* Adjust icon size */
+    margin: 0 0.5rem; /* Spacing between icons */
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #fcca03; /* Hover color to match theme */
+    transform: scale(1.2); /* Slight zoom on hover */
+  }
+  
+  

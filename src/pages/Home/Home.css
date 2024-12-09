@@ -1,0 +1,170 @@
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1; /* Ensure the content is above the video */
+    text-align: center;
+  }
+
+  .portfolio-main-wrapper {
+     background-image: url('/src/assets/images/PortfolioImage.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 90vh;
+  }
+  .why-we-are-section-cls {
+    height: 90vh;
+    width: 100vw;
+  }
+  
+  .secondary-hm-sec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .WhyWeAreBest-main-wrapper {
+    padding: 48px;
+    display: flex;
+  }
+  
+  .popular-head-name {
+    padding: 0px 32px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-left-wrp {
+    width: 50%;
+    padding: 16px;
+    display: flex;
+  }
+  
+  .id-btns-wrapper {
+    padding-top: 16px;
+    gap: 16px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .id-cls {
+    text-decoration: none;
+      color: white;
+  }
+  
+  .main-right-wrp {
+    width: 50%;
+    /* height: 300px; */
+  }
+  
+  .hero-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .features-section {
+    padding-top: 32px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .auto-product-rotate-wrap {
+    height: auto;
+    display: flex;
+    padding: 0px 16px;
+  }
+  
+  .rotate-card-wrp {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background: #f1e5e5b5;
+  }
+  
+  .dummy-content {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .dummy-content p {
+    margin-bottom: 15px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Example */
+  .hero-section {
+    padding-top: 80px;
+    /* Adjust based on navbar height */
+  }
+  
+  .aboutus-section-main-wrap {
+    padding-top: 32px;
+      width: 100%;
+      height: auto;
+  }
+  
+  .about-sub-wrapper {
+    height: auto;
+      display: flex;
+      padding: 0px 16px;
+  }
+  
+  .contactus-section-main-wrap {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .contact-sub-wrapper {
+    height: auto;
+    display: flex;
+    padding: 0px 16px;
+  }
+  
+  .services-wrap {
+    width: 100vw;
+    height: auto;
+    display: flex;
+  }
+  .services-main-wrap {
+    padding: 0px 48px 48px 48px;
+    display: flex
+  
+  }
+  .service-left-wrap {
+    width: 60vw;
+    height: auto;
+  }
+
+  .service-right-wrap {
+    width: 45vw;
+  }
+  .before-after-wid-right {
+    height: 60vh;
+    margin-top: 13vh;
+  }
+
+  .home-footer-sections {
+    height: 90vh;
+    width: 100vw;
+  }
+  
